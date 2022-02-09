@@ -26,10 +26,32 @@ body{
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    margin: 0;
 }
 
 .tel{
     font-size: 15px;
     font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.number{
+    width: 608px;
+    height: 48px;
+    border: 1px solid #DADADA;
+}
+
+.next{
+    width: 370px;
+    height: 48px;
+    background-color: black;
+    border-radius: 4px;
+    margin: 16px 0 0 128px;
+}
+
+.next a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
 }
 
