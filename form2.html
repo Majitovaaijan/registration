@@ -22,14 +22,26 @@
             <input class="position mean ind" type="text" placeholder="Стоимость товара">
             <input class="position mean" type="text" placeholder="Количество товара">
             <input class="position mean" type="text" placeholder="Итого сумма кредита">
-            <select class="position mean ind" name="credit-type">
-                <option value="1">Вид кредитагого</option>
+            <select class="mean position-1 ind" name="credit-type">
+                <option disabled selected  hidden value="1">Вид кредита</option>
+                <option value="2">Рассрочка</option>
+                <option value="2">Кредит</option>
             </select>
-            <select class="position mean" name="credit-term" id="#">
-                <option value="1">Срок кредита ( мес)</option>
+            <select class="mean position-1" name="credit-term" id="#">
+                <option disabled selected  hidden value="1">Срок кредита ( мес)</option>
+                <option value="2">3 месяца</option>
+                <option value="2">6 месяцев</option>
+                <option value="2">9 месяцев</option>
+                <option value="2">12 месяцев</option>
             </select>
             <select class="phone mean ind" name="place" id="#">
-                <option value="2">Точка получения товара</option>
+                <option disabled selected  hidden value="1">Точка получения товара</option>
+                <option value="2">ТЦ "Азия Молл" пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
+                <option value="3">ТЦ ГУМ "Чынар" пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)</option>
+                <option value="4">ТЦ «Beta Stores - 2» ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»</option>
+                <option value="5">ТЦ Vefa Center ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20</option>
+                <option value="6">ТЦ «Беш-Сары Сити» Бейшеналиева 42А, ТЦ Беш Сары-Сити</option>
+                <option value="7">ТРЦ «Аламедин Гранд» пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)</option>
             </select>
             <button>Оформить заявку</button>
 
